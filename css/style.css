@@ -2168,3 +2168,23 @@ ol {
     padding: 30px 40px 35px 35px;
   }
 }
+.anchor {
+  position: fixed;
+  right: 10px; /* Ajuste a posição conforme necessário */
+  bottom: 10px; /* Ajuste a posição conforme necessário */
+  background-color: #3498db; /* Cor de fundo da âncora */
+  color: #fff; /* Cor do texto da âncora */
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  text-align: center;
+}
+
+.arrow {
+  width: 0;
+  height: 0;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  border-bottom: 15px solid #fff; /* Alterada para apontar para cima */
+  margin-bottom: -5px; /* Ajuste para alinhar a seta com o texto */
+}
